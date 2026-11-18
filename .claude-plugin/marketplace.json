@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "angular-expert",
+  "description": "Angular implementation plugin for AI coding agents.",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-angular-expert"
+  },
+  "plugins": [
+    {
+      "name": "angular-expert",
+      "description": "Generates and refactors version-aware Angular and TypeScript code following official documentation, established codebase patterns, and Jest unit tests with an 80% coverage gate.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular Expert"
+  short_description: "Implement version-aware Angular code with Jest and an 80% coverage gate"
+  default_prompt: "Use $angular-expert to detect the Angular and TypeScript versions first, follow the codebase and official guides, and write Jest unit tests with jest-preset-angular and at least 80% coverage."

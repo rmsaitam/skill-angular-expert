@@ -1,0 +1,26 @@
+{
+  "name": "angular-expert",
+  "version": "0.1.0",
+  "description": "Generates and refactors version-aware Angular and TypeScript code following official documentation, established codebase patterns, and Jest unit tests with an 80% coverage gate.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-angular-expert"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-angular-expert",
+  "repository": "https://github.com/rmsaitam/skill-angular-expert",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "typescript",
+    "standalone",
+    "signals",
+    "rxjs",
+    "jest",
+    "onpush",
+    "zoneless",
+    "coverage"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "logo": "assets/logo.svg"
+}

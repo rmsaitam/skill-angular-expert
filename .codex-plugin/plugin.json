@@ -1,0 +1,42 @@
+{
+  "name": "angular-expert",
+  "version": "0.1.0",
+  "description": "Generates and refactors version-aware Angular and TypeScript code following official documentation, established codebase patterns, and Jest unit tests with an 80% coverage gate.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-angular-expert"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-angular-expert",
+  "repository": "https://github.com/rmsaitam/skill-angular-expert",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "typescript",
+    "standalone",
+    "signals",
+    "rxjs",
+    "jest",
+    "onpush",
+    "zoneless",
+    "coverage"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Angular Expert",
+    "shortDescription": "Implement version-aware Angular code with Jest and an 80% coverage gate",
+    "longDescription": "Detects the Angular, TypeScript, Node and build tool versions from package.json, angular.json and tsconfig.json before suggesting any dependency or code, follows the codebase architecture and official Angular guides, prefers standalone components, signals, OnPush and zoneless change detection when supported, respects existing RxJS and test conventions, and writes Jest unit tests with jest-preset-angular under an 80% coverage gate.",
+    "developerName": "Reginaldo (rmsaitam)",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/rmsaitam/skill-angular-expert",
+    "defaultPrompt": [
+      "Implement this feature following the Angular and TypeScript versions detected in the project",
+      "Review my Angular code against the official guides and existing codebase conventions",
+      "Write Jest unit tests with jest-preset-angular and at least 80% coverage"
+    ],
+    "brandColor": "#DD0031",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

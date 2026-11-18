@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "angular-expert",
+  "description": "Generates and refactors version-aware Angular and TypeScript code following official documentation, established codebase patterns, and Jest unit tests with an 80% coverage gate."
+}
